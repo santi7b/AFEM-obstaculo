@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation, PillowWriter
 import matplotlib.tri as mtri
 from matplotlib.colors import LogNorm
-import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 import time
 
 
