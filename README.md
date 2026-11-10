@@ -6,6 +6,8 @@ Bartels y Kaltenbach para el problema del obstáculo: elementos de
 Crouzeix–Raviart, Newton semisuave, reconstrucción de flujo de Marini
 y estimador de brecha primal-dual.
 
+Parte del código se elaboró con asistencia de Claude (Anthropic).
+
 ## Uso
 python implementacion_obstaculo.py
 
