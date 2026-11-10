@@ -752,7 +752,7 @@ while gap > stop:
     U_free, L, info = solve(S_free, P_free, F, Chi_free, c)
 
     #Se impone la condicion de frontera
-    U_cr = np.zeros(len(edge_midpoints)) # (cambio) volvemos a poner los grados de libertad de frontera (valen 0)
+    U_cr = np.zeros(len(edge_midpoints)) #volvemos a poner los grados de libertad de frontera (valen 0)
     U_cr [indices_libres] = U_free
 
     z_T, c_div = reconstruir_flujo_dual(elements, elem2edges, grad_phi_all,  U_cr, L, F)
